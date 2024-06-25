@@ -61,17 +61,63 @@
 }
 .double-icons {
   height: 30px;
-  width: 50px;
+  width: 74px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 4px;
   padding: 20px;
-  border: 2px solid rgb(197, 197, 197);
+  border: 2px solid #F5F5F5;
   border-radius: 18px;
 }
 .double-icons:hover {
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navbar1{
+  display: flex;
+  gap: 10px;
+}
+.navbar11 p{
+  font-size: 12px;
+}
+.navbar11 h3{
+  font-size: 14px;
+}
+.navbar11{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 27px;
+  padding: 10px;
+  padding-right: 60px;
+
+}
+#nav-bar11{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.navbar11-last{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.search{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #ff385c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search img{
+  height: 30px;
+  width: 30px;
 }
 .navbar2{
   display: flex;
@@ -82,6 +128,7 @@
   border-top: 1px solid #F5F5F5;
   border-bottom:1px solid #F5F5F5; 
   margin-bottom: 15px;
+  opacity: 0.7;
 }
 .nav2-icon{
   display: flex;
@@ -91,8 +138,8 @@
   gap: 5px;
 }
 .nav2-icon img{
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
 }
 .section1{
     display: grid;
@@ -155,7 +202,7 @@
     display: grid;
     min-width: 60%;
     grid-template-columns: repeat(5,17vw);
-    grid-template-rows: repeat(5,35vh);
+    grid-template-rows: repeat(5,38vh);
     padding-left:1.5vw;
     justify-content: center;
 }
