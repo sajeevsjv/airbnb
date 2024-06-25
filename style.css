@@ -70,12 +70,36 @@
   border: 2px solid #F5F5F5;
   border-radius: 18px;
 }
+#double-icons2 {
+  display: none;
+  height: 30px;
+  width: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 20px;
+  border: 2px solid #F5F5F5;
+  border-radius: 18px;
+}
 .double-icons:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .navbar1{
   display: flex;
   gap: 10px;
+  border: 1px solid rgba(199, 199, 199,0.7);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 70vw;
+  border-radius: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.small-line{
+  width: 1px;
+  height: 40px;
+  background-color: rgba(199, 199, 199,0.6);
 }
 .navbar11 p{
   font-size: 12px;
@@ -83,32 +107,51 @@
 .navbar11 h3{
   font-size: 14px;
 }
+.navbar11-last p{
+  font-size: 12px;
+}
+.navbar11-last h3{
+  font-size: 14px;
+}
 .navbar11{
   display: flex;
   flex-direction: column;
+  width: 35vw;
   gap: 5px;
   align-items: flex-start;
   justify-content: center;
-  border: 2px solid black;
-  border-radius: 27px;
-  padding: 10px;
+  background-color: none;
+  border-radius: 40px;
+  padding: 20px;
   padding-right: 60px;
+  height: 10vh;
 
+}
+.navbar11:hover{
+  background-color: #F5F5F5;
 }
 #nav-bar11{
   display: flex;
-  gap: 10px;
-  justify-content: center;
+  width: 50vw;
+  justify-content: space-between;
   align-items: center;
+  height: 10vh;
+  border-radius: 40px;
+  padding: 20px 8px 20px 20px;
+  
+}
+#nav-bar11:hover{
+  background-color: #F5F5F5;
 }
 .navbar11-last{
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
+  
 }
 .search{
-  height: 50px;
-  width: 50px;
+  height: 47px;
+  width: 47px;
   border-radius: 50%;
   background-color: #ff385c;
   display: flex;
@@ -116,8 +159,8 @@
   align-items: center;
 }
 .search img{
-  height: 30px;
-  width: 30px;
+  height: 25px;
+  width: 25px;
 }
 .navbar2{
   display: flex;
@@ -128,7 +171,9 @@
   border-top: 1px solid #F5F5F5;
   border-bottom:1px solid #F5F5F5; 
   margin-bottom: 15px;
+  margin-top: 15px;
   opacity: 0.7;
+  overflow: scroll;
 }
 .nav2-icon{
   display: flex;
@@ -145,7 +190,7 @@
     display: grid;
     min-width: 60%;
     grid-template-columns: repeat(4,24vw);
-    grid-template-rows: repeat(4,33vh);
+    grid-template-rows: repeat(4,38vh);
     padding-left:1.5vw;
     justify-content: center;
 }
@@ -160,7 +205,7 @@
     margin-bottom: 10px;
 }
 .sec11 h3{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
 }
 @media only screen and (min-width:1600px){
@@ -215,4 +260,15 @@
   line-height: 20px;
 }
 
+}
+@media only screen and (max-width:800px) {
+  .navbar11{
+    display: none;
+  }
+  .small-line{
+    display: none;
+  }
+  .nav-center{
+    display: none;
+  }
 }
