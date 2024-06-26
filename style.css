@@ -306,7 +306,7 @@
   }
 
 }
-@media only screen and (min-width:360px) and (max-width:683px){
+@media only screen and (min-width:395px) and (max-width:683px){
   .section1{
     display: grid;
     min-width: 60%;
@@ -325,7 +325,7 @@
 }
 
 }
-@media only screen and (min-width:50px) and (max-width:380px){
+@media only screen and (min-width:50px) and (max-width:394px){
   .section1{
     display: grid;
     min-width: 60%;
@@ -345,9 +345,9 @@
   line-height: 18px;
 }
 .navbar2{
-  height: 7vh;
+  height: 6.5vh;
   font-size: 10px;
-  margin-top: 25px 0px 40px 0px;
+  margin-top: 40px 0px 40px 0px;
   opacity: 1;
   overflow: hidden;
   gap: 15px;
