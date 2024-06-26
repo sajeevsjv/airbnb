@@ -159,6 +159,7 @@
   justify-content: space-evenly;
   height: 8vh;
   width: 100%;
+  gap: 15px;
   font-size: 12px;
   border-top: 1px solid #F5F5F5;
   border-bottom:1px solid #F5F5F5; 
@@ -264,7 +265,7 @@
     display: none;
   }
   .navbar2{
-    height: 8vh;
+    height: 7vh;
     font-size: 10px;
     margin-top: 25px 0px 40px 0px;
     opacity: 1;
@@ -334,6 +335,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .sec11{
   height: 35vh;
   width: 78vw;
@@ -341,6 +343,17 @@
 .sec11 h3{
   font-size: 12px;
   line-height: 18px;
+}
+.navbar2{
+  height: 7vh;
+  font-size: 10px;
+  margin-top: 25px 0px 40px 0px;
+  opacity: 1;
+  overflow: hidden;
+  gap: 15px;
+}
+.nav-right p{
+  display: none;
 }
 
 }
