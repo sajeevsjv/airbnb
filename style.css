@@ -230,7 +230,17 @@
   align-items: center;
   gap: 15px;
   margin-top: 15px;
+}
+.foot2 a{
+  font-size: 16px;
+  color: grey;
+  text-decoration: none;
   
+}
+.foot2 a:hover{
+  font-size: 16px;
+  color: #6A6A6A;
+  border-bottom: 1px solid black ;
 }
 .foot3{
   width: 93%;
@@ -239,18 +249,23 @@
   margin-top: 15px;
 
 }
-.foot2 a{
-  font-size: 16px;
-  color: grey;
-  text-decoration: none;
-  
+.foot4{
+  display: grid;
+  grid-template-columns: repeat(6,30vw);
+  grid-template-rows: repeat(2,20vw);
 }
+.foot41{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
 @media only screen and (min-width: 1600px) {
   .section1 {
     display: grid;
     min-width: 60%;
     grid-template-columns: repeat(6, 15vw);
-    grid-template-rows: repeat(6, 42vh);
+    grid-template-rows: repeat(2, 42vh);
     padding-left: 1.5vw;
     justify-content: center;
   }
