@@ -517,7 +517,11 @@ li:nth-child(1){
 }
 @media only screen and (min-width:1440px) {
   #nav-bar11{
-    height: 7vh;
+    height: 6vh;
+    padding: 30px 4px 30px 20px;
+  }
+  .navbar11{
+    height: 6vh;
   }
   
 }
